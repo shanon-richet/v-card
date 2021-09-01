@@ -1,0 +1,69 @@
+body {
+    background-image: url("lines.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+header{
+    font-family: 'Slabo 27px', serif;
+    font-size:200px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: green;
+}
+
+#picture{
+    width: 500px;
+    height: 650px;
+    margin: 50px;
+}
+
+.flex {
+    display: grid; 
+    grid-auto-flow: column dense; 
+    grid-auto-rows: auto; 
+    grid-template-columns: 600px 300px; 
+    gap: 50px; 
+}
+
+.carte {
+    width: 600px;
+    height: 500px;
+    background-color: #001a00;
+    color: #b3ffb3;
+    border: 3px ridge #00b300;
+    z-index: 99;
+    font-size: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-rows: 300px;
+    grid-template-rows: 300px;
+    margin-top: 55px;
+
+}
+
+address {
+    margin-bottom: none;
+}
+
+.link {
+    font-size: 40px;
+    background-color: #001a00;
+    color: #b3ffb3;
+    border: 3px ridge #00b300;
+}
+
+.github {
+    font-size: 30px;
+}
+
+
+a {
+    color: whitesmoke;
+}
+
+
