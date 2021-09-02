@@ -1,5 +1,5 @@
 ### V-card
 
-# Carte de visite
+# **Carte de visite**
 
-J'ai fait ma carte de visite en disposant les éléments avec les grilles CSS. Ce qui permet de les structurer
+J'ai réalisé ma carte de visite en utilisant le langage html et les propriétés de grilles css pour disposer les éléments. 
