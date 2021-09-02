@@ -3,11 +3,12 @@ body {
     background-size: cover;
     background-position: center;
     z-index: -2;
+    display:flex;
 }
 
 header {
-    width: 1200px;
-    height: 220px;
+    width: 100%;
+    height: 200px;
     background-image: linear-gradient(#000000, #3f3d3c, rgb(0, 0, 0));
     border: 3px ridge #034403;
     z-index:-1;
@@ -16,26 +17,30 @@ header {
 
 }
 
-.titre {
+.title {
     font-size:120px;
     color: whitesmoke;
-    text-align: center;
+    margin-left: 550px;
     background-image: linear-gradient(#001a00, #034403,#001a00);
-    width: 900px;
-    height: 150px;
-    margin-left: 150px;
+    width: 700px;
+    height: 130px;
     z-index: 1;
     filter:drop-shadow(10px 10px 10px black);
     border: 3px ridge #00b300;
     border-radius: 1%;
+    text-align: center;
 }
 
 #picture{
-    width: 420px;
-    height: 600px;
-    margin: 50px;
+    width: 350px;
+    height: 500px;
+    padding: 50px;
+    margin-left: 400px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.picture {
     border: 3px ridge #034403;
-    filter:sepia(100%) drop-shadow(10px 10px 10px black);
 }
 
 .column {
@@ -54,6 +59,7 @@ header {
     grid-template-rows: auto auto;
     grid-row-gap: 20px;
     margin-top: 55px;
+    margin-left: 400px;
     padding: 10px;
       }
 
@@ -63,7 +69,7 @@ header {
     color: #b3ffb3;
     border: 3px ridge #00b300;
     width: 480px;
-    height: 400px;
+    height: 360px;
     font-size: 20px;
     filter:drop-shadow(10px 10px 10px black);
 }
@@ -74,7 +80,7 @@ header {
     color: #b3ffb3;
     border: 3px ridge #00b300;
     width: 480px;
-    height: 80px;
+    height: 55px;
     filter:drop-shadow(10px 10px 10px black);
     border-radius: 1%;
 }
@@ -117,8 +123,8 @@ header {
 
 .contact {
     font-size: 18px;
-    margin-top: 95px;
-    margin-left: 70px;
+    margin-top: 50px;
+    margin-left: 75px;
 }
 
 
