@@ -27,16 +27,16 @@ h1 {
     width: 700px;
     height: 130px;
     z-index: 1;
-    filter: drop-shadow(10px 10px 10px black);
+    filter: drop-shadow(10px 10px 10px #182825);
     text-align: center;
-    text-shadow: 1px 2px 1px red, 1px 2px 2px yellow, 1px 1px cyan;
+    text-shadow: 1px 2px 1px #7FB800, 1px 2px 2px #7B4B94, 1px 1px #B9FAF8;
 }
 .carte {
     border-radius: 1%;
     margin-left: 100px;
-    background-color: #001a00;
+    background-color: #182825;
     color: #b3ffb3;
-    border: 3px ridge #00b300;
+    border: 3px ridge #B9FAF8;
     width: 480px;
     height: 600px;
     font-size: 20px;
